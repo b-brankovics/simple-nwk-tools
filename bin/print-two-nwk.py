@@ -99,7 +99,7 @@ def main(argv):
 		else:
 			node.set_style(ns2)
 
-	for node in t1.traverse():
+	for node in t2.traverse():
 		if not node.is_leaf():
 			# Get leaf names for a "node"
 			names = map(lambda n: n.name, node.iter_leaves())
