@@ -18,3 +18,10 @@ python3 bin/print-single-nwk3.py -i tree.nwk -o outgroup -p tree
 ```
 
 The output is an SVG file.
+
+Create a single tree plot with metadata:
+```
+bin/print-tree.py #defaults:  -i tree.nwk -o tree.pdf
+```
+
+metadata is read from tree.yaml. (Needs to be update to be parametric)
