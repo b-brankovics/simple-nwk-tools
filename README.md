@@ -3,7 +3,7 @@ Simple python scripts for doing basic manipulations and plots of newick files
 
 ## Python3
 
-> **You need to use computer with a graphical user interface!**
+> **If you are using a computer without a graphical user interface,** then you need to run the following `export QT_QPA_PLATFORM=offscreen`.
 
 Installing prerequisite
 ```
